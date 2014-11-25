@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".TestLaunchActivity" >
+
+    <Button
+        android:id="@+id/btn_basic_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="@string/basic_test" />
+
+    <Button
+        android:id="@+id/btn_connection_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_basic_test"
+        android:layout_below="@+id/btn_basic_test"
+        android:onClick="onClick"
+        android:text="@string/connection_test" />
+
+    <Button
+        android:id="@+id/btn_pin_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_connection_test"
+        android:onClick="onClick"
+        android:text="@string/pin_test" />
+
+    <Button
+        android:id="@+id/btn_object_management_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_pin_test"
+        android:onClick="onClick"
+        android:text="@string/object_management_test" />
+
+    <Button
+        android:id="@+id/btn_crypto_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_object_management_test"
+        android:layout_below="@+id/btn_object_management_test"
+        android:onClick="onClick"
+        android:text="@string/crypto_test" />
+
+    <Button
+        android:id="@+id/btn_test_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_crypto_test"
+        android:onClick="onClick"
+        android:text="@string/all_test" />
+
+</RelativeLayout>

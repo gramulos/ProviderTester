@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <item
+        android:id="@+id/run_test"
+        android:icon="@drawable/ic_media_embed_play"
+        android:showAsAction="always"
+        android:title="@string/details_result"/>
+
+</menu>
+
+<!--    <item
+        android:id="@+id/logs_trigger"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/log"/> -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PKCS11 Provider Tester</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pkcs_eleven">PKCS#11</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="tests_activity_title">PKCS#11</string>
+    <string name="run_tests_title">Run</string>
+    <string name="enter_pin">Please Enter Card PIN</string>
+    <string name="remember_pin">Remember PIN for Future Requests</string>
+    <string name="confirm">Confirm</string>
+    <string name="wrong_pin">Wrong PIN</string>
+    <string name="log">Log</string>
+    <string name="gen_info">General</string>
+    <string name="details_result">Result</string>
+    <string name="check_all">Check All</string>
+    <string name="uncheck_all">Uncheck All</string>
+    <string name="want_exit">Exit From Application</string>
+    <string name="title_activity_test_launch">TestLaunchActivity</string>
+    <string name="test">Test</string>
+    <string name="basic_test">Basic Test</string>
+    <string name="connection_test">Connection Test</string>
+    <string name="crypto_test">Cryptography Test</string>
+    <string name="object_management_test">Object Management Test</string>
+    <string name="all_test">Test All</string>
+    <string name="pin_test">PIN Test</string>
+    <string name="basic_test_info">&lt;i&gt;&lt;h3&gt;Performs basic testing of PKCS11 module, including load and unload module functions&lt;/h3&gt;&lt;/i&gt;</string>
+    <string name="connection_test_info">&lt;i&gt;&lt;h3&gt;Performs testing of connection to a smart card. Includes loading PKCS11 module, enumerating slots, opening/closing session functions.&lt;/h3&gt;&lt;/i&gt;</string>
+    <string name="press_run">&lt;h4&gt;Press &lt;b&gt;&lt;font color=\'#4BE946\'&gt;RUN&lt;/font&gt;&lt;/b&gt; button to start the test&lt;/h4&gt;</string>
+    <string name="press_run_again">&lt;h4&gt;Press &lt;b&gt;&lt;font color=\'#4BE946\'&gt;RUN&lt;/font&gt;&lt;/b&gt; button to restart the test&lt;/h4&gt;</string>
+    <string name="functions_list">FUNCTIONS LIST</string>
+    <string name="pin_test_info">&lt;h3&gt;&lt;i&gt;Performs testing of PIN management. Includes User Login, SO Login, Logout functions.&lt;/i&gt;&lt;/h3&gt;</string>    
+    <string name="test_all_tests"> Test All Tests</string>
+    <string name="obj_mngmnt_test_info">&lt;h3&gt;&lt;i&gt;Performs testing of Object Managment. Includes User Login, loading keyStore then for each object gets certificate, certificate chain and keys .&lt;/i&gt;&lt;/h3&gt;</string>
+    <string name="crypto_test_info">&lt;h3&gt;&lt;i&gt;Performs testing of Cryptography. Includes encrypt, decrypt, sign , verify .&lt;/i&gt;&lt;/h3&gt;</string>
+
+</resources>
